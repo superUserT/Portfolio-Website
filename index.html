@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -12,19 +12,30 @@
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#about">About</a>
+            <a class="header__nav-link" href="#home">Home</a>
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#projects">Projects</a>
+            <a class="header__nav-link" href="about.html">About</a>
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#contact">Contact</a>
+            <a class="header__nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="pages/contact.html">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
+      <section id="home" class="home">
+        <h2 class="home__title">Welcome to My Portfolio</h2>
+        <p class="home__text">Explore my work and get to know me.</p>
+      </section>
+
       <section id="about" class="about">
         <h2 class="about__title">About Me</h2>
         <p class="about__text">
@@ -45,6 +56,14 @@
             <p class="project__description">Description of project 2.</p>
           </div>
         </div>
+      </section>
+
+      <section id="resume" class="resume">
+        <h2 class="resume__title">Resume</h2>
+        <p class="resume__text">
+          Download my resume
+          <a class="resume__link" href="resume.pdf" target="_blank">here</a>.
+        </p>
       </section>
 
       <section id="contact" class="contact">
