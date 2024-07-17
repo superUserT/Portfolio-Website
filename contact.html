@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact - My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
       <h1 class="header__title">Thabiso Rantsho</h1>
       <nav class="header__nav">
-        <ul class="header__nav-list">
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="header__nav-list" id="nav-list">
           <li class="header__nav-item">
             <a class="header__nav-link" href="index.html">Home</a>
           </li>
@@ -24,7 +29,7 @@
             <a class="header__nav-link" href="resume.html">Resume</a>
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#contact.html">Contact</a>
+            <a class="header__nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </nav>
@@ -36,7 +41,8 @@
         <p class="contact__text">
           You can reach me at
           <a class="contact__link" href="mailto:rantshothabisomail@gmail.com"
-            >rantshothabisomail@gmail.com</a>
+            >rantshothabisomail@gmail.com</a
+          >
         </p>
         <h3>My linkdin</h3>
         <a href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a/"
@@ -44,14 +50,14 @@
             src="linkdin_logo.jpeg"
             alt="linkdin"
             style="width: 80px; height: 90px"
-        ></a>
+        /></a>
         <h3>My Github</h3>
         <a href="https://github.com/superUserT"
           ><img
             src="github_logo.png"
             alt="linkdin"
             style="width: 80px; height: 90px"
-        ></a>
+        /></a>
       </section>
     </main>
 
@@ -60,5 +66,6 @@
         &copy; 2024 Thabiso Rantsho. All rights reserved.
       </p>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
